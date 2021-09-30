@@ -1,9 +1,8 @@
 ---
 layout: root.html
 tags: posts
-title: C'est parti pour mon blog !!!
+title: Comment tout a commencé
 
 ---
 
-Blablabla...
 

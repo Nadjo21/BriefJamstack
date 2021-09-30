@@ -6,7 +6,7 @@ ul {
   }
 
 li{
-    display:inline-list-item;
+    display:inline;
 }
 
 
@@ -24,11 +24,12 @@ background-size: cover;
 
 main{
     flex:1;
+    text-align: center;
 }
 
 
 footer{
-    background:black;
+    background:white;
     position:absolute;
     bottom:0;
     width:100%;
@@ -39,4 +40,27 @@ footer{
 button{
     background-color: black;
     horiz-align: center;
+}
+
+li > a {
+    flex-direction: column;
+}
+
+p{
+   background-color: white;
+    margin: auto;
+   padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+   width: 700px;
+
+
+}
+
+div{
+
+}
+
+@media (min-height: 400px){
+
 }
