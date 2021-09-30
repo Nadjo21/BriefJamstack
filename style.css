@@ -21,12 +21,12 @@ background-size: cover;
     flex-direction: column;
      margin:0;
     text-align: center;
-
 }
 
 main{
     flex:1;
     text-align: center;
+    width: 100%;
 
 }
 
@@ -60,12 +60,22 @@ p{
     padding-bottom: 10px;
     margin-top: 0px;
     text-align: center;
-   width: 700px;
+   width: 100%;
 
 
 }
 
 
 @media (min-height: 400px){
+
+
+
+    p{
+      text-align: justify;
+        display-flex: column ;
+        flex-direction: column;
+
+    }
+
 
 }
